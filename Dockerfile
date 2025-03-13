@@ -3,7 +3,6 @@ FROM openjdk:21
 COPY ./src/ /app/src/
 
 COPY ./pom.xml /app/pom.xml
-COPY ./templates/* /app/templates/
 
 ENV MAVEN_HOME /usr/share/maven
 
